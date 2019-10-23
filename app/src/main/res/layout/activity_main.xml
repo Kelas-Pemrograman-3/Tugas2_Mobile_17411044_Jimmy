@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#534E4E"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:id="@+id/edtNama"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Npm"
+        android:id="@+id/edtNpm"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/btnsimpan"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        />
+
+</LinearLayout>
+
